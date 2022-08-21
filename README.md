@@ -1,2 +1,2 @@
-# freecodecamp
-Projects from freecodecamp courses.
+# freeCodeCamp
+Projects from [freecodecamp courses](https://www.freecodecamp.com).
