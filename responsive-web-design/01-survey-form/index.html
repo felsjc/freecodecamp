@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Course Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Course Registration</h1>
+    <p id="description">Please fill out the form to apply for the course</p>
+    <form action='https://register-demo.freecodecamp.org' id="survey-form">
+      <fieldset>
+        <label id="name-label"> Name: <input type="text" id="name" required placeholder="Full Name"></label>
+        <label id="email-label"> Email: <input type="email" id="email" required required placeholder="me@email.com"></label>
+        <label id="number-label"> Age: <input type="number" id="number" min="16" max="120" required required placeholder="16"></label>
+      </fieldset>
+      <fieldset>
+        <label id="course-type-label">Select your the courses you have already taken or equivalent experience:</label>
+        <label><input type="checkbox" value="1" name="experience" /> Git</label>
+        <label><input type="checkbox" value="2" name="experience" /> Machine Learning</label>
+        <label><input type="checkbox" value="2" name="experience" /> Data Science</label>
+        <label><input type="checkbox" value="2" name="experience" /> Python</label>
+        <label><input type="checkbox" value="2" name="experience" /> Javascript</label>
+      </fieldset>
+      <fieldset>
+        <label>Select your preferred course type:</label>
+        <label><input type="radio" value="1" name="course-type" required/> Intructor-led</label>
+        <label><input type="radio" value="2" name="course-type" required/> Self-paced</label>
+      </fieldset>
+      <fieldset>
+        <label id="course-label">Select which course you want to take:</label>
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="0">Git</option>
+          <option value="1">Machine Learning</option>
+          <option value="2">Data Science</option>
+          <option value="3">Python</option>
+          <option value="4">Javascript</option>
+         </select>
+      </fieldset>
+      <fieldset>
+        <label>Tell us why you would like to learn this new skill:</label>
+        <textarea rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+      </fieldset>
+      <input type="submit" value="Register" id="submit">
+    </form>
+  </body>
+</html>
