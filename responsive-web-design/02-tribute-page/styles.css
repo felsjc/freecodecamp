@@ -1,0 +1,21 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#image {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-div {
+    width: 100%;
+}
