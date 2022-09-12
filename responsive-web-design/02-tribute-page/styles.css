@@ -9,6 +9,36 @@
     margin: 0;
 }
 
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+}
+
+body {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    color: rgb(30, 30, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#main {
+    background: rgb(225, 241, 248);
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration-thickness: 0.1;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+
+
 #image {
     height: auto;
     max-width: 100%;
@@ -17,5 +47,16 @@
 }
 
 #img-div {
-    width: 100%;
+    margin: 0;
+    padding: 8px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    text-align: left;
+    margin: 0 auto 50px auto;
 }
